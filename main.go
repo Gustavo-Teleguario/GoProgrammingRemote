@@ -6,8 +6,8 @@ import (
 
 func main() {
 	e := employee.Employee{
-		FirstName:   "Sam",
-		LastName:    "Adolf",
+		FirstName:   "Maynor",
+		LastName:    "Teleguario",
 		TotalLeaves: 30,
 		LeavesTaken: 20,
 	}
