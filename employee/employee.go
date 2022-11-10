@@ -11,6 +11,15 @@ type Employee struct {
 	LeavesTaken int
 }
 
+func (e *Employee) UpdateName(firstName string, lastName string) {
+	e.FirstName = firstName
+	e.LastName = lastName
+}
+
+func (e *Employee) PrintName() {
+	fmt.Println(e.FirstName, " ", e.LastName)
+}
+
 func (e Employee) LeavesRemaining() {
 	fmt.Printf("%s %s has %d leaves remaining\n", e.FirstName, e.LastName, (e.TotalLeaves - e.LeavesTaken))
 }
