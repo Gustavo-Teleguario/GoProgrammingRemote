@@ -2,6 +2,7 @@ package main
 
 import (
 	"GoProgrammingRemote/employee"
+	"fmt"
 )
 
 func main() {
@@ -12,4 +13,8 @@ func main() {
 		LeavesTaken: 20,
 	}
 	e.LeavesRemaining()
+	e.PrintName()
+	e.UpdateName("Gustavo", "Queche")
+	fmt.Println("Name was Update to")
+	e.PrintName()
 }
