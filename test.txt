@@ -1,2 +1,1 @@
-Das ist einem simple Text Datei die ich hinzugefügt habe
-damit man einem einfache beispiel und Idee hat, wie man Branch funktioniert.
+
